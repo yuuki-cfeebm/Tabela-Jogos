@@ -1,6 +1,12 @@
 * {
     font-family: Arial, Helvetica, sans-serif;   
+    margin: 0;
 }
+/* 
+body {
+  width: 100%;
+  height: 100%;
+} */
 
 h1, p, h2, h3 {
   color: white;
@@ -11,7 +17,9 @@ header {
   justify-content: center;
   width: 100%;
   height: 160px;
-  background: #212529;
+  background: #252525;
+  box-shadow: 0px 2px 24px 1px #FF0000;
+  position: relative;
 }
 
 header .cont-header {
@@ -19,7 +27,7 @@ header .cont-header {
   justify-content: space-between;
   align-items: center;
   padding: 0px 50px;
-  width: 100%; 
+  width: 1400px; 
 }
 
 header .cont-header p {
@@ -44,14 +52,34 @@ header .cont-header p {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
   padding: 0px 50px;
+  background: #414141;
+  min-height: 100vh;
 }
 
 .info-cor {
+  width: 1200px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.item1 {
+  width: 50%;
+}
+
+.item2 {
+  width: 50%;
+}
+
+.img-item2 {
+  width: 550px;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .titulo-conteudo {
@@ -99,6 +127,6 @@ table #img-time {
     height: 60px;
 }
 
-table tr #img-time img {
+img {
     width: 100%;
 }
