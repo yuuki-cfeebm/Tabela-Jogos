@@ -65,7 +65,7 @@ main {
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
   url("/Tabela-Jogos/img/neo-quimica.jpg");
   background-size: cover;
-  box-shadow: 1px 1px 10px 0.6px black;
+  box-shadow: 1px 1px 15px 1px black;
 }
 
 .container-sobre-time-texto {
@@ -98,9 +98,38 @@ main {
 }
 
 /*---------section2---------*/
-/* #tabela-jogos {
+#tabela-jogos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(0.25turn, #000000, #8C1007, #000000);
+}
 
-} */
+.titulo-tabela-jogos p{
+  font-size: 42px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container-tabela-jogos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 1500px;
+  /* padding: 24px; */
+  /* margin-top: 68px; */
+}
+
+.img-times-tabela {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
 
 .item2 {
   width: 50%;
