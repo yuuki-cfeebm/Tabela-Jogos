@@ -98,17 +98,33 @@ main {
 }
 
 /*---------section2---------*/
+.img-cor-tabela-jogos {
+  width: 100%;
+}
+
+.img-cor-tabela-jogos img {
+  width: 100px;
+  object-fit: contain;
+}
+
 #tabela-jogos {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 100vh;
   background: radial-gradient(circle 600px at center, #3E0703, #000000);
 }
 
-.titulo-tabela-jogos p{
+.titulo-tabela-jogos {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+}
+
+.titulo-tabela-jogos p {
   font-size: 42px;
   color: white;
   text-transform: uppercase;
@@ -129,7 +145,7 @@ table {
   border-spacing: 0;
 }
 
-.titulo-tabela-jogos {
+.titulo-tabela {
   color: white;
   text-transform: uppercase;
   font-size: 24px;
@@ -190,13 +206,70 @@ a {
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 
 .container-ultimas-noticias {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   width: 1500px;
+}
+
+.titulo-ultimas-noticias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  background: #3E0703;
+  width: 100%;
+  height: 100px;
+  box-shadow: 1px 1px 10px 5px rgb(30,30,30);
+}
+
+.card-ultimas-noticias {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background: #181818;
+  gap: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px 5px rgb(30, 30, 30);
+}
+
+.card-ultimas-noticias img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+}
+
+.card-titulo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #a3a3a3
+}
+
+.card-descricao {
+  font-size: 18px;
+}
+
+.card-link-noticia {
+  padding: 24px 0px;
+}
+
+.card-link-noticia a{
+  padding: 16px 24px;
+  background: #8C1007;
+  color: white;
+  border-radius: 12px;
 }
