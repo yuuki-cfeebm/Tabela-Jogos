@@ -184,3 +184,19 @@ a {
   color: #3E0703;
   padding: 6px
 }
+
+/*-----section3------*/
+#ultimas-noticias {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-ultimas-noticias {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1500px;
+}
