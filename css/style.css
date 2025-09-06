@@ -219,7 +219,6 @@ a {
 .container-ultimas-noticias {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   width: 1500px;
 }
 
