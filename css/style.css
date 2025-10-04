@@ -62,8 +62,7 @@ main {
   justify-content: center;
   width: 100%;
   height: calc(100vh - 100px);
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-  url("/Tabela-Jogos/img/neo-quimica.jpg");
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/img/neo-quimica.jpg");
   background-size: cover;
   box-shadow: 1px 1px 15px 1px black;
 }
@@ -197,13 +196,21 @@ a {
   position: relative;
 }
 
+
+
 .local #link {
   position: absolute;
   right: 0;
   bottom: 0;
   font-size: 18px;
   color: #3E0703;
-  padding: 6px
+  padding: 6px;
+  transition: 0.3s;
+}
+
+.local #link:hover {
+  transition: 0.3s;
+  color: #FF0000;
 }
 
 /*-----section3------*/
@@ -271,6 +278,16 @@ a {
 
 .card-link-noticia {
   padding: 24px 0px;
+}
+
+.card-link-noticia a {
+  transition: 0.3s;
+}
+
+.card-link-noticia a:hover {
+  color:#8C1007;
+  background: #DDDAD0;
+  transition: 0.3s
 }
 
 .card-link-noticia a{
