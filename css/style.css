@@ -139,7 +139,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1500px;
+  max-width: 1500px;
+  padding: 16px;
+
 }
 
 table {
@@ -216,7 +218,7 @@ a {
 /*-----section3------*/
 #ultimas-noticias {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -225,8 +227,13 @@ a {
 
 .container-ultimas-noticias {
   display: flex;
-  justify-content: space-between;
-  width: 1500px;
+  justify-content: space-around;
+  gap: 24px;
+  max-width: 1500px;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 16px;
+
 }
 
 .titulo-ultimas-noticias {
@@ -308,14 +315,31 @@ footer {
 
 .container-footer {
   margin: auto;
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  padding: 16px;
+  flex-wrap: wrap;
 }
 
 .titulo-footer p{
   font-size: 24px;
   color: #414141;
   margin-bottom: 12px;
+}
+
+@media (max-width: 1380px) {
+  .titulo-sobre-time {
+    font-size: 50px;
+  }
+
+  .texto-sobre-time {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+
 }
