@@ -344,12 +344,23 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  .container-sobre-time-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .titulo-sobre-time {
-    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    /* font-size: 40px; */
   }
 
   .texto-sobre-time {
-    font-size: 14px;
+    /* font-size: 14px; */
+    width: 100%;
+    text-align: center;
   }
 }
 
