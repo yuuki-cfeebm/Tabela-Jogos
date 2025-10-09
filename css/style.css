@@ -62,7 +62,8 @@ main {
   justify-content: center;
   width: 100%;
   height: calc(100vh - 100px);
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/neo-quimica.jpg");
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background-image: url("../img/neo-quimica.jpg");
   background-size: cover;
   box-shadow: 1px 1px 15px 1px black;
 }
